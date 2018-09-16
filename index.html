@@ -5,6 +5,13 @@
     <title>ДЕТИ В БЕЗОПАСНОСТИ</title>
     <link media="all" rel="stylesheet" href="css/reset.css" />
     <link media="all" rel="stylesheet" href="css/style.css" />
+    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.maphilight.js"></script>
+<script type="text/javascript">$(function() {
+        $('.map-map-map').maphilight();
+    });
+</script>
 </head>
 <body>
     <header>
@@ -33,12 +40,15 @@
         <div class="clearfix"></div>
     </nav>
     <section class="interactive-map">
-        <img src="images/interactive-map.jpg" usemap="#image-map" alt="Карта">
+        <img src="images/interactive-map.jpg" usemap="#image-map" class="map-map-map" alt="Карта">
         <map name="image-map">
-            <area target="" alt="left-middle" title="left-middle" href="left-middle" coords="1167,1061,1173,733,1332,825,1633,676,1647,781,1714,754,1941,902,1928,966,1975,987,1572,1176,1572,1318" shape="poly">
-            <area target="" alt="left-bottom" title="left-bottom" href="left-bottom" coords="1687,1149,1772,1193,1779,1216,2032,1399,2448,1213,2465,1314,2536,1271,2546,1159,2617,1132,2611,1088,2773,1020,2773,933,2671,855,2655,933,2557,858,2557,760,2418,669,2374,713,2374,841" shape="poly">
-            <area target="" alt="right-middle" title="right-middle" href="right-middle" coords="2028,666,2177,777,2251,743,2258,828,2349,865,2343,693,2454,635,2576,781,2860,628,2877,416,2596,230,2529,233,2383,166,2218,287,1974,412,2037,507,2035,579,2034,627,2030,654,2047,651" shape="poly">
-            <area target="" alt="left-top" title="left-top" href="left-top" coords="1175,804,1033,719,1026,516,955,469,1584,148,1959,378,1932,449,2020,645,2145,750,2020,804,2027,952,1959,939,1970,871,1919,787,1851,763,1773,723,1749,724,1674,737,1627,608,1336,777,1200,720" shape="poly">
+            <area target="" alt="left-middle" title="left-middle" href="left-middle" coords="291, 265, 293, 183, 333, 206, 408, 169, 411, 195, 428, 188, 485, 225, 482, 241, 493, 246, 393, 294, 393, 329" shape="poly">
+            <area target="" alt="left-bottom" title="left-bottom" href="left-bottom" coords="421, 287, 443, 298, 444, 304, 508, 349, 612, 303, 616, 328, 634, 317, 636, 289, 654, 283, 652, 272, 693, 255, 693, 233, 667, 213, 663, 233, 639, 214, 639, 190, 604, 167,
+            593, 178, 593, 210" shape="poly">
+            <area target="" alt="right-middle" title="right-middle" href="right-middle" coords="507, 166, 544, 194, 562, 185, 564, 207, 587, 216, 585, 173, 613, 158, 644, 195, 715, 157, 719, 104, 649, 57, 632, 58, 595, 41, 554, 71, 493, 103, 509, 126, 508, 144, 508
+            , 156, 507, 163, 511, 162" shape="poly">
+            <area target="" alt="left-top" title="left-top" href="left-top" coords="293, 201, 258, 179, 256, 129, 238, 117, 396, 37, 489, 94, 483, 112, 505, 161, 536, 187, 505, 201, 506, 238, 489, 234, 492, 217, 479, 196, 462, 190, 443, 180, 437, 181, 4
+            18, 184, 406, 152, 334, 194, 300, 180" shape="poly">
         </map>
     </section>
     <section class="hero-cta">

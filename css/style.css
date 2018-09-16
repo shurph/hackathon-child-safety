@@ -3,7 +3,20 @@ header , .interactive-map, .hero-cta {
 
 
 }
-header img, .interactive-map img, .hero-cta img {
+.interactive-map img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: bottom;
+}
+.interactive-map {
+    text-align: center;
+}
+.map-map-map {
+    display: inline-block!important;
+}
+header img, .hero-cta img {
     width: 100vw;
     margin: 0;
     padding: 0;
