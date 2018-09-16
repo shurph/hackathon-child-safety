@@ -1,4 +1,4 @@
-header , .interactive-map, .hero-cta, .room-section, .check-list-section {
+header , .interactive-map, .hero-cta, .room-section, .memo-section, .check-list-section {
     width: 100vw;
 
 
@@ -21,7 +21,7 @@ header.secondary {
     margin-top: -80px;
     overflow: hidden;
 }
-header img, .hero-cta img , .room-section img, .check-list-section img {
+header img, .hero-cta img , .room-section img,.memo-section img , .check-list-section img {
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ header img, .hero-cta img , .room-section img, .check-list-section img {
 
 }
 
-.room-section img, .check-list-section img {
+.room-section a, .memo-section img, .check-list-section img {
     display: block;
     float: left;
     margin: 0;
